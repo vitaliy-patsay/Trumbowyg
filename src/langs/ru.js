@@ -9,7 +9,7 @@
 jQuery.trumbowyg.langs.ru = {
    viewHTML:       "Посмотреть HTML",
 
-   formatting:     "Форматирование",
+   formatting:     "Форматирование ",
    p:              "Обычный",
    blockquote:     "Цитата",
    code:           "Код",
