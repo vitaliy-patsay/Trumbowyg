@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# An example hook script to make use of push options.
+# The example simply echoes all push options that start with 'echoback='
+# and rejects all pushes when the "reject" push option is used.
+#
+# To enable this hook, rename this file to "pre-receive".
+
+echo "You are attempting to push to the ${GITHUB_REPO_NAME} repository which has been made read-only"
+echo "Access denied, push blocked. Please contact the repository administrator."
+
+exit 1
